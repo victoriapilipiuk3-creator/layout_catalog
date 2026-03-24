@@ -101,8 +101,8 @@
       color $transition-duration;
 
     &:hover {
-      background-color: $color-background;
       color: $color-primary;
+      background-color: $color-background;
     }
   }
 }

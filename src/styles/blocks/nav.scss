@@ -39,15 +39,14 @@
     content: '';
 
     position: absolute;
-    left: 0;
     bottom: 0;
+    left: 0;
 
     display: block;
 
     width: 100%;
     height: $spacing-1;
-
-    background-color: $color-primary;
     border-radius: $spacing-2;
+    background-color: $color-primary;
   }
 }
