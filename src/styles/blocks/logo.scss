@@ -1,0 +1,9 @@
+$logo-size: 40px;
+
+.logo {
+  &__image {
+    display: flex;
+    width: $logo-size;
+    height: $logo-size;
+  }
+}

@@ -1,29 +1,10 @@
-@import './header';
-@import './card';
-@import './stars';
-
-body {
-  margin: 0;
-}
-
-.catalog {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  justify-content: center;
-  gap: 46px 48px;
-  padding: 50px 48px;
-  max-width: 944px;
-  margin: 0 auto;
-
-  @media (min-width: 488px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  @media (min-width: 1024px) {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
+@import './tokens';
+@import './reset';
+@import './blocks/mixin';
+@import './blocks/header';
+@import './blocks/logo';
+@import './blocks/nav';
+@import './blocks/card';
+@import './blocks/stars';
+@import './blocks/main';
+@import './blocks/catalog';

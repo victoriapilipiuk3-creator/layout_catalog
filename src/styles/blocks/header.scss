@@ -1,0 +1,12 @@
+$header-padding: 50px;
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 60px;
+  padding: 0 $header-padding;
+
+  box-shadow: 0 2px 4px 0 #0000000d;
+}
