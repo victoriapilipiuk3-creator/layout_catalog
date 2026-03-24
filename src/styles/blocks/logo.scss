@@ -1,9 +1,7 @@
-$logo-size: 40px;
-
 .logo {
   &__image {
     display: flex;
-    width: $logo-size;
-    height: $logo-size;
+    width: $spacing-10;
+    height: $spacing-10;
   }
 }

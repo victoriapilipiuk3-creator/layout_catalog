@@ -1,25 +1,20 @@
-$columns-width: 200px;
-
 .catalog {
   display: grid;
   grid-template-columns: repeat(1, $columns-width);
-  gap: 46px $spacing-12;
+  gap: $catalog-row-gap $spacing-12;
   justify-content: center;
 
   margin: 0 auto;
 
   @include on-small-tablet {
     grid-template-columns: repeat(2, $columns-width);
-    column-gap: $spacing-12;
   }
 
   @include on-tablet {
     grid-template-columns: repeat(3, $columns-width);
-    column-gap: $spacing-12;
   }
 
   @include on-desktop {
     grid-template-columns: repeat(4, $columns-width);
-    column-gap: $spacing-12;
   }
 }
